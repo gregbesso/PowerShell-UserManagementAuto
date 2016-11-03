@@ -9,8 +9,6 @@
 # import the Offboarding global variables, to avoid having to define them 
 # in multiple places by the handful of script files. probably the only place with a manually specified path...
 #
-. "\\server\share\UserManagementAuto\ServerScripts\OffboardingImports.ps1" 
-
 
 # function that gets existing task templates...
 function Get-UserMgtTasks(){
